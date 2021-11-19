@@ -46,9 +46,8 @@ class _Home_PageState extends State<Home_Page> {
 
   void clear() {
     setState(() {
-      num1 = 0;
-      num2 = 0;
-      result = 0;
+      t1.text = "0";
+      t2.text = "0";
     });
   }
 
